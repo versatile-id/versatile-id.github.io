@@ -1,0 +1,116 @@
+body {
+  font-family: 'Montserrat';
+}
+.navbar {
+  /* transition: 500ms ease; */
+  background: #00091B;
+}
+ 
+
+.nav-item {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: 200;
+}
+
+.nav-item.active a {
+  color: #88CDF6 !important;
+  font-weight: 600;
+}
+
+.nav-link span {
+  color: #88CDF6;
+  font-weight: 600;
+}
+
+/* Carousel */
+.carousel {
+  height: 100%;
+  /* background-color: #171717; */
+  color: white;
+}
+
+.carousel h1 {
+  font-family: 'Lora';
+}
+
+.carousel p {
+  font-weight: 200;
+}
+
+.carousel-item {
+  height: 100vh;
+  width: 100vw;
+  min-height: 100%; 
+  background-position: center top;
+  background: no-repeat center center scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  background-size: cover;  
+}
+@keyframes fadeIn {
+  from {
+    top: 20%;
+    opacity: 0;
+  }
+
+  to {
+    top: 100;
+    opacity: 1;
+  }
+
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    top: 20%;
+    opacity: 0;
+  }
+
+  to {
+    top: 100;
+    opacity: 1;
+  }
+
+}
+
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+
+}
+
+.coming-soon{
+  height: 350px;
+  width: 350px;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.dot {
+  color: #4FEBFE;
+}
+
+p {
+  text-align: center;
+  margin: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+
+}

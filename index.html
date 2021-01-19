@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <link rel="stylesheet" href="css/all.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Store</title>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.jpeg" width="50px" height="50px" class="rounded-circle" alt="Hefa Store">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text-uppercase mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Items
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="coming-soon.html">GraphicTees</a>
+              <a class="dropdown-item" href="coming-soon.html">ClassicTees</a>
+              <a class="dropdown-item" href="coming-soon.html">T-Shirt</a>
+              <a class="dropdown-item" href="coming-soon.html">Shirt</a>
+              <a class="dropdown-item" href="coming-soon.html">Jackets</a>
+              <a class="dropdown-item" href="coming-soon.html">Pants</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="confirm.html">Confirm Payment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-white"><i class="fas fa-shopping-cart"></i> (<span>12</span>)</a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Carousel -->
+  <div id="carouselExampleControls " class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url(img/logo-index.png)">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Akhir Carousel -->
+
+  <!-- Brands -->
+  <section class="brands">
+    <div class="container">
+      <div class="row p-5 text-center">
+        <div class="col-md">
+          <img src="img/brand/cc.png" class="img-fluid">
+        </div>
+        <div class="col-md">
+          <img src="img/brand/nike.png" class="img-fluid">
+        </div>
+        <div class="col-md">
+          <img src="img/brand/pnb.png" class="img-fluid">
+        </div>
+        <div class="col-md">
+          <img src="img/brand/uniqlo.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Brands -->
+
+
+
+  <!-- Footer -->
+  <footer class="border-top p-3">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-4">
+          <a href="">
+            <img src="img/logo.jpeg" width="50px" height="50px" class="rounded-circle" alt="100x100">
+          </a>
+        </div>
+        <div class="col-4">
+          <p>All Rights Reserved by</p>
+        </div>
+        <div class="col-4 text-right">
+          <a href="">
+            <img src="img/social/fb.png">
+          </a>
+          <a href="">
+            <img src="img/social/twitter.png">
+          </a>
+          <a href="">
+            <img src="img/social/ig.png">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Akhir Footer -->
+
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/all.js"></script>
+  <script>
+    $(window).scroll(function () {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 720);
+    });
+  </script>
+</body>
+
+</html>
